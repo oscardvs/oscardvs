@@ -17,9 +17,9 @@
 
 
 <div align="center">
-  <img src="https://komarev.com/ghpvc/?username=YOUR_USERNAME&label=Profile%20Views&color=blueviolet&style=for-the-badge" alt="Profile Views" />
-  <img src="https://img.shields.io/github/followers/YOUR_USERNAME?label=Followers&style=for-the-badge&color=blue" alt="GitHub followers" />
-  <img src="https://img.shields.io/github/stars/YOUR_USERNAME?label=Total%20Stars&style=for-the-badge&color=yellow" alt="GitHub stars" />
+  <img src="https://komarev.com/ghpvc/?username=oscardvs&label=Profile%20Views&color=blueviolet&style=for-the-badge" alt="Profile Views" />
+  <img src="https://img.shields.io/github/followers/oscardvs?label=Followers&style=for-the-badge&color=blue" alt="GitHub followers" />
+  <img src="https://img.shields.io/github/stars/oscardvs?label=Total%20Stars&style=for-the-badge&color=yellow" alt="GitHub stars" />
 </div>
 
 ## About Me
