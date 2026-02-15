@@ -101,7 +101,7 @@ const oscar = {
     <tr>
       <td width="50%">
         <h3>🐕 Taggy: Autonomous Patrol Robot</h3>
-        <b>European Defense Tech Hackathon Winner</b><br/>
+        <b>European Defense Tech Hackathon</b><br/>
         Built an autonomous patrolling robot with threat detection on Unitree Go2 quadruped. Voice commands, Nav stack, perception with LiDAR & RealSense.<br/>
         <a href="https://laelaps.ai/">Laelaps AI</a><br/><br/>
         <img src="https://img.shields.io/badge/ROS2-22314E?style=flat-square&logo=ros&logoColor=white"/>
