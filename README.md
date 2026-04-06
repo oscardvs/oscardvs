@@ -82,15 +82,6 @@ const oscar = {
 ![Linux](https://img.shields.io/badge/Linux-FCC624?style=flat-square&logo=linux&logoColor=black)
  
 </div>
- 
----
- 
-### GitHub Stats
- 
-<div align="center">
-  <img height="160" src="https://github-readme-stats.vercel.app/api?username=oscardvs&show_icons=true&theme=dark&hide_border=true&bg_color=0d1117&title_color=FF6B35&icon_color=F7931E&text_color=c9d1d9" />
-  <img height="160" src="https://github-readme-stats.vercel.app/api/top-langs/?username=oscardvs&layout=compact&theme=dark&hide_border=true&bg_color=0d1117&title_color=FF6B35&text_color=c9d1d9" />
-</div>
 
 ---
 
