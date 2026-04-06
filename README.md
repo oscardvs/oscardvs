@@ -37,13 +37,8 @@ const oscar = {
     bachelors: "BSc Mechanical Engineering @ TU Delft (2020–2024)",
     minor: "Business Administration @ Leiden University"
   },
-  currentWork: [
-    "Autonomous navigation for mobile robots in construction",
-    "Traversability estimation & elevation mapping",
-    "ROS 2 + Nav2 stack development",
-    "LiDAR-based localization systems"
-  ],
-  research: [
+  thesis: "Autonomous navigation for a ceiling-drilling construction robot (Hilti)"
+  interests: [
     "Vision-Language-Action policies",
     "Sim-to-real transfer",
     "Motion planning & MPC",
@@ -51,125 +46,51 @@ const oscar = {
   ],
   venture: "Odesha Inc. — Building the future, one project at a time",
   languages: ["French 🇫🇷", "Dutch 🇳🇱", "English 🇬🇧", "German 🇩🇪"],
-  hobbies: ["Aviation ✈️ (40h flight time, PPL)", "Sailing ⛵", "Wingfoiling 🪁"]
+  hobbies: ["Aviation ✈️ ", "Sailing ⛵", "Wingfoiling 🪁"]
 };
 ```
 
 ---
 
-## 🛠️ Tech Stack
-
+### Featured Work
+ 
+| Project | What | Stack |
+|---------|------|-------|
+| **MSc Thesis — Hilti AG** *(private)* | Autonomous navigation for a mobile construction robot. Traversability estimation, elevation mapping, sim-to-real deployment | ROS 2 · Simulation · Jetson Platforms · Control Algorithms |
+| **[Project Haller](https://github.com/oscardvs/haller_ws)** | Personal ROS 2 robot from hardware up — 7 packages: URDF, ros2_control over CAN, CV pipeline, Nav2 SLAM, traversability | ROS 2 · Python · Jetson Orin Nano |
+| **[Drone MPC Navigation](https://github.com/oscardvs/RO47005_PDM)** | Custom city env in URDF, RRT/A* path planning from scratch, convex MPC for dynamic obstacle avoidance | ROS · PyBullet · Python |
+| **[Taggy — Autonomous Patrol Robot](https://github.com/oscardvs/taggy)** | Defense hackathon (Zurich). Threat detection & voice-commanded patrol on Unitree Go2 | ROS 2 · YOLO · RealSense |
+| **[SheetMates](https://github.com/oscardvs/sheetmates)** | Collaborative sheet metal nesting SaaS. Users upload DXF files, parts get optimally nested on shared sheets for laser cutting | Next.js · TypeScript · Firebase · Stripe |
+| **[Rent-A-Flight](https://rentaflight.be)** | Full booking platform for a Belgian flight school — scheduling, logbooks, billing, weather/NOTAM integration. In daily use | Next.js · TypeScript · Firebase |
+| **BrokerMind AI** *(private)* | Vertical AI SaaS for private jet charter brokers — automating quoting, sourcing, and client communication workflows | Next.js · TypeScript · LLM APIs |
+| **SARTECH** *(private)* | AI governance platform for compliance teams navigating AI regulation | Next.js · TypeScript · Tailwind |
+| **[RL Browser Agent](https://github.com/oscardvs/figure_challenge_rl)** | Built an RL agent for Figure AI's 30-step browser automation challenge — expert trajectories → SFT → DPO pipeline | Python · Playwright · RL |
+| **[Portfolio + OPA](https://oscardevos.com)** | Personal site with embedded AI assistant (Gemini 2.0 Flash) — 3 conversation modes, function calling, streaming | Next.js · TypeScript · Gemini API |
+ 
+### Tech
+ 
 <div align="center">
-
-### Robotics & Autonomy
-![ROS2](https://img.shields.io/badge/ROS2-22314E?style=for-the-badge&logo=ros&logoColor=white)
-![Isaac Sim](https://img.shields.io/badge/Isaac_Sim-76B900?style=for-the-badge&logo=nvidia&logoColor=white)
-![Nav2](https://img.shields.io/badge/Nav2-22314E?style=for-the-badge&logo=ros&logoColor=white)
-![Gazebo](https://img.shields.io/badge/Gazebo-F58025?style=for-the-badge&logo=gazebosim&logoColor=white)
-
-### AI / ML / Computer Vision
-![PyTorch](https://img.shields.io/badge/PyTorch-EE4C2C?style=for-the-badge&logo=pytorch&logoColor=white)
-![OpenCV](https://img.shields.io/badge/OpenCV-5C3EE8?style=for-the-badge&logo=opencv&logoColor=white)
-![TensorRT](https://img.shields.io/badge/TensorRT-76B900?style=for-the-badge&logo=nvidia&logoColor=white)
-![YOLO](https://img.shields.io/badge/YOLO-00FFFF?style=for-the-badge&logo=yolo&logoColor=black)
-
-### Languages & Tools
-![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
-![C++](https://img.shields.io/badge/C++-00599C?style=for-the-badge&logo=cplusplus&logoColor=white)
-![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge&logo=typescript&logoColor=white)
-![MATLAB](https://img.shields.io/badge/MATLAB-0076A8?style=for-the-badge&logo=mathworks&logoColor=white)
-
-### DevOps & Infrastructure
-![Docker](https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white)
-![Linux](https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black)
-![Git](https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white)
-![Firebase](https://img.shields.io/badge/Firebase-FFCA28?style=for-the-badge&logo=firebase&logoColor=black)
-
-### Hardware
-![Jetson](https://img.shields.io/badge/Jetson-76B900?style=for-the-badge&logo=nvidia&logoColor=white)
-![LiDAR](https://img.shields.io/badge/LiDAR-111111?style=for-the-badge)
-![RealSense](https://img.shields.io/badge/RealSense-0071C5?style=for-the-badge&logo=intel&logoColor=white)
-
+ 
+![ROS2](https://img.shields.io/badge/ROS2-22314E?style=flat-square&logo=ros&logoColor=white)
+![Isaac Sim](https://img.shields.io/badge/Isaac_Sim-76B900?style=flat-square&logo=nvidia&logoColor=white)
+![PyTorch](https://img.shields.io/badge/PyTorch-EE4C2C?style=flat-square&logo=pytorch&logoColor=white)
+![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)
+![C++](https://img.shields.io/badge/C++-00599C?style=flat-square&logo=cplusplus&logoColor=white)
+![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white)
+![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white)
+![Jetson](https://img.shields.io/badge/Jetson_Orin-76B900?style=flat-square&logo=nvidia&logoColor=white)
+![Linux](https://img.shields.io/badge/Linux-FCC624?style=flat-square&logo=linux&logoColor=black)
+ 
 </div>
-
+ 
 ---
-
-## 🚀 Featured Projects
-
+ 
+### GitHub Stats
+ 
 <div align="center">
-  <table>
-    <tr>
-      <td width="50%">
-        <h3>🐕 Taggy: Autonomous Patrol Robot</h3>
-        <b>European Defense Tech Hackathon</b><br/>
-        Built an autonomous patrolling robot with threat detection on Unitree Go2 quadruped. Voice commands, Nav stack, perception with LiDAR & RealSense.<br/>
-        <a href="https://laelaps.ai/">Laelaps AI</a><br/><br/>
-        <img src="https://img.shields.io/badge/ROS2-22314E?style=flat-square&logo=ros&logoColor=white"/>
-        <img src="https://img.shields.io/badge/YOLO-00FFFF?style=flat-square"/>
-        <img src="https://img.shields.io/badge/Unitree_Go2-111111?style=flat-square"/>
-      </td>
-      <td width="50%">
-        <h3>🚁 Drone MPC Navigation</h3>
-        <b>Planning & Decision Making @ TU Delft</b><br/>
-        Custom city environment in URDF, RRT/A* path planning from scratch, convex MPC for dynamic obstacle avoidance.<br/><br/>
-        <img src="https://img.shields.io/badge/ROS-22314E?style=flat-square&logo=ros&logoColor=white"/>
-        <img src="https://img.shields.io/badge/MPC-5C3EE8?style=flat-square"/>
-        <img src="https://img.shields.io/badge/PyBullet-3776AB?style=flat-square&logo=python&logoColor=white"/>
-      </td>
-    </tr>
-    <tr>
-      <td width="50%">
-        <h3>🤖 Mirte Autonomous Navigation</h3>
-        <b>Robot Software Practicals @ TU Delft</b><br/>
-        C++ based ROS2 autonomous navigation with LiDAR point cloud processing and OpenCV pedestrian detection.<br/><br/>
-        <img src="https://img.shields.io/badge/ROS2-22314E?style=flat-square&logo=ros&logoColor=white"/>
-        <img src="https://img.shields.io/badge/C++-00599C?style=flat-square&logo=cplusplus&logoColor=white"/>
-        <img src="https://img.shields.io/badge/OpenCV-5C3EE8?style=flat-square&logo=opencv&logoColor=white"/>
-      </td>
-      <td width="50%">
-        <h3>🌱 Aspir: Direct Air Capture</h3>
-        <b>Climate Tech Startup</b><br/>
-        Solar-powered household DAC device. Solid sorbent TVSA process. 3rd place Yes!Delft Startup Weekend.<br/><br/>
-        <img src="https://img.shields.io/badge/Startup-FF6B35?style=flat-square"/>
-        <img src="https://img.shields.io/badge/Hardware-111111?style=flat-square"/>
-        <img src="https://img.shields.io/badge/CAD-0076A8?style=flat-square"/>
-      </td>
-    </tr>
-    <tr>
-      <td width="50%">
-        <h3>🧠 Metamaterial ML Design</h3>
-        <b>Material Science @ TU Delft</b><br/>
-        CUDA-accelerated neural networks for predicting anisotropic stiffness from spinodoid designs. Inverse design implementation.<br/><br/>
-        <img src="https://img.shields.io/badge/PyTorch-EE4C2C?style=flat-square&logo=pytorch&logoColor=white"/>
-        <img src="https://img.shields.io/badge/CUDA-76B900?style=flat-square&logo=nvidia&logoColor=white"/>
-        <img src="https://img.shields.io/badge/Deep_Learning-FF6F61?style=flat-square"/>
-      </td>
-      <td width="50%">
-        <h3>🎯 Human Motion Modeling</h3>
-        <b>Bachelor Thesis @ TU Delft</b><br/>
-        Real-time head-neck model for autonomous vehicles. PID control with time-delay, genetic algorithm optimization.<br/><br/>
-        <img src="https://img.shields.io/badge/MATLAB-0076A8?style=flat-square&logo=mathworks&logoColor=white"/>
-        <img src="https://img.shields.io/badge/Simulink-0076A8?style=flat-square"/>
-        <img src="https://img.shields.io/badge/Control_Systems-111111?style=flat-square"/>
-      </td>
-    </tr>
-  </table>
+  <img height="160" src="https://github-readme-stats.vercel.app/api?username=oscardvs&show_icons=true&theme=dark&hide_border=true&bg_color=0d1117&title_color=FF6B35&icon_color=F7931E&text_color=c9d1d9" />
+  <img height="160" src="https://github-readme-stats.vercel.app/api/top-langs/?username=oscardvs&layout=compact&theme=dark&hide_border=true&bg_color=0d1117&title_color=FF6B35&text_color=c9d1d9" />
 </div>
-
----
-
-## 📈 Current Focus
-
-```
-┌─────────────────────────────────────────────────────────────────┐
-│  🔬 Research                    │  🏗️ Building                  │
-│  ─────────────────────────────  │  ─────────────────────────────│
-│  • Traversability estimation    │  • Odesha Inc. ventures       │
-│  • Learned navigation policies  │  • Full-stack web apps        │
-│  • Sim-to-real deployment       │  • Personal portfolio (OPA)   │
-│  • Multi-modal perception       │  • Open source contributions  │
-└─────────────────────────────────────────────────────────────────┘
-```
 
 ---
 
