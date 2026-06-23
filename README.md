@@ -11,6 +11,8 @@
 
 <div align="center">
   <img src="https://komarev.com/ghpvc/?username=oscardvs&label=Profile%20views&color=FF6B35&style=for-the-badge" alt="Profile views" />
+  <a href="https://github.com/oscardvs?tab=followers"><img src="https://img.shields.io/github/followers/oscardvs?label=Followers&style=for-the-badge&color=F7931E" alt="GitHub followers" /></a>
+  <img src="https://img.shields.io/github/stars/oscardvs?label=Total%20Stars&style=for-the-badge&color=FFD23F" alt="GitHub stars" />
   <a href="https://www.oscardevos.com">
     <img src="https://img.shields.io/badge/Portfolio-oscardevos.com-FF6B35?style=for-the-badge&logo=googlechrome&logoColor=white" alt="Portfolio at oscardevos.com" />
   </a>
@@ -50,6 +52,7 @@ not just in a slide deck. When I am off the robot, I am usually shipping one of 
 | **[Project Haller](https://github.com/oscardvs/haller_ws)** | My personal robot, built from the hardware up. URDF, ros2_control over CAN, a vision pipeline, SLAM and Nav2, traversability. Runs in sim and on the real thing. | ROS 2 · Python · Jetson Orin |
 | **[Drone MPC navigation](https://github.com/oscardvs/RO47005_PDM)** | RRT and A* global planning written from scratch in a custom city map, with a convex MPC for dodging moving obstacles. | ROS · PyBullet · Python |
 | **[Taggy](https://github.com/oscardvs/taggy)** | A patrol robot on a Unitree Go2 with threat detection and voice commands. Built in 48 hours at a defence-tech hackathon in Zurich. | ROS 2 · YOLO · LiDAR · RealSense |
+| **CenterFusion** | LiDAR and radar sensor fusion for 3D object detection. A bidirectional pipeline that sharpens detection of cyclists and pedestrians on the View of Delft dataset. | Python · PyTorch |
 
 <!-- ============ SOFTWARE ============ -->
 ## 💻 Software and ventures
@@ -57,6 +60,8 @@ not just in a slide deck. When I am off the robot, I am usually shipping one of 
 | Project | What it is | Stack |
 |---|---|---|
 | **[Anamnesis](https://github.com/oscardvs/anamnesis)** | A cross-machine memory layer for Claude Code. It captures what the agent learns as plain markdown and keeps it in sync across my machines over Tailscale. Open source, on PyPI. | Python · MCP · Tailscale |
+| **[Zoteus](https://github.com/oscardvs/zoteus)** | An open-source MCP server that lets AI assistants read and write a Zotero reference library. On npm, open-core with a hosted tier at [zoteus.com](https://zoteus.com). | TypeScript · MCP · npm |
+| **[vibeTeX](https://github.com/oscardvs/vibetex)** | An MCP server that gives AI assistants hands-on access to LaTeX projects, including ones hosted on Overleaf. A sibling to Zoteus on the same open-core stack. | TypeScript · MCP · OAuth |
 | **[Rent a Flight](https://rentaflight.be)** | The whole platform for a Belgian flight school: booking, scheduling, digital logbooks, billing on flight hours, plus live weather and NOTAMs. In daily use. | Next.js · TypeScript · Firebase |
 | **[SheetMates](https://github.com/oscardvs/sheetmates)** | Collaborative sheet-metal nesting. Upload a DXF, your parts get nested onto shared laser-cutting sheets, and you pay for your slice. | Next.js · TypeScript · Stripe |
 | **[BrokerMind AI](https://jetbrokermind.ai)** | A vertical AI co-pilot for private-jet charter brokers: pricing, deal analysis and client messaging, grounded in real broker knowledge. | Next.js · TypeScript · LLMs |
