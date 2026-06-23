@@ -30,7 +30,7 @@ const oscar = {
   studying: "MSc Cognitive Robotics @ TU Delft",
   background: "BSc Mechanical Engineering, plus a Business minor",
   thesis: "Autonomous navigation for a mobile robot on construction sites",
-  building: "Odesha, the roof over everything I make",         // started as a surfboard I shaped at 14
+  building: "Odesha, the roof over everything I make",    
   workingOn: ["motion planning", "3D perception", "sim-to-real", "VLA policies"],
   offline: ["flying ✈️", "sailing ⛵", "wingfoiling 🪁"],
   speaks: ["French", "Dutch", "English", "German"],
